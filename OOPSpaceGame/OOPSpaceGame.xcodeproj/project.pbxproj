@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4C71D31EB6BAA90084D532 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C71D21EB6BAA90084D532 /* main.swift */; };
+		AC4C71DA1EB6D0370084D532 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C71D91EB6D0370084D532 /* Planet.swift */; };
+		AC4C71DC1EB6D09C0084D532 /* PlanetarySystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C71DB1EB6D09C0084D532 /* PlanetarySystem.swift */; };
+		AC4C71DE1EB6D1C90084D532 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C71DD1EB6D1C90084D532 /* Helper.swift */; };
+		AC4C71E01EB6D5A90084D532 /* SpaceAdventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4C71DF1EB6D5A90084D532 /* SpaceAdventure.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC4C71CD1EB6BAA90084D532 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC4C71CF1EB6BAA90084D532 /* OOPSpaceGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOPSpaceGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4C71D21EB6BAA90084D532 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AC4C71D91EB6D0370084D532 /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		AC4C71DB1EB6D09C0084D532 /* PlanetarySystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetarySystem.swift; sourceTree = "<group>"; };
+		AC4C71DD1EB6D1C90084D532 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AC4C71DF1EB6D5A90084D532 /* SpaceAdventure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAdventure.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4C71CC1EB6BAA90084D532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4C71C61EB6BAA90084D532 = {
+			isa = PBXGroup;
+			children = (
+				AC4C71D11EB6BAA90084D532 /* OOPSpaceGame */,
+				AC4C71D01EB6BAA90084D532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4C71D01EB6BAA90084D532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4C71CF1EB6BAA90084D532 /* OOPSpaceGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4C71D11EB6BAA90084D532 /* OOPSpaceGame */ = {
+			isa = PBXGroup;
+			children = (
+				AC4C71D21EB6BAA90084D532 /* main.swift */,
+				AC4C71D91EB6D0370084D532 /* Planet.swift */,
+				AC4C71DB1EB6D09C0084D532 /* PlanetarySystem.swift */,
+				AC4C71DD1EB6D1C90084D532 /* Helper.swift */,
+				AC4C71DF1EB6D5A90084D532 /* SpaceAdventure.swift */,
+			);
+			path = OOPSpaceGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4C71CE1EB6BAA90084D532 /* OOPSpaceGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4C71D61EB6BAA90084D532 /* Build configuration list for PBXNativeTarget "OOPSpaceGame" */;
+			buildPhases = (
+				AC4C71CB1EB6BAA90084D532 /* Sources */,
+				AC4C71CC1EB6BAA90084D532 /* Frameworks */,
+				AC4C71CD1EB6BAA90084D532 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OOPSpaceGame;
+			productName = OOPSpaceGame;
+			productReference = AC4C71CF1EB6BAA90084D532 /* OOPSpaceGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4C71C71EB6BAA90084D532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MrAliGorithm;
+				TargetAttributes = {
+					AC4C71CE1EB6BAA90084D532 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U3FSDK5XFF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC4C71CA1EB6BAA90084D532 /* Build configuration list for PBXProject "OOPSpaceGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC4C71C61EB6BAA90084D532;
+			productRefGroup = AC4C71D01EB6BAA90084D532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4C71CE1EB6BAA90084D532 /* OOPSpaceGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4C71CB1EB6BAA90084D532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4C71DC1EB6D09C0084D532 /* PlanetarySystem.swift in Sources */,
+				AC4C71D31EB6BAA90084D532 /* main.swift in Sources */,
+				AC4C71DA1EB6D0370084D532 /* Planet.swift in Sources */,
+				AC4C71DE1EB6D1C90084D532 /* Helper.swift in Sources */,
+				AC4C71E01EB6D5A90084D532 /* SpaceAdventure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC4C71D41EB6BAA90084D532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4C71D51EB6BAA90084D532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC4C71D71EB6BAA90084D532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC4C71D81EB6BAA90084D532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U3FSDK5XFF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4C71CA1EB6BAA90084D532 /* Build configuration list for PBXProject "OOPSpaceGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4C71D41EB6BAA90084D532 /* Debug */,
+				AC4C71D51EB6BAA90084D532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4C71D61EB6BAA90084D532 /* Build configuration list for PBXNativeTarget "OOPSpaceGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4C71D71EB6BAA90084D532 /* Debug */,
+				AC4C71D81EB6BAA90084D532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4C71C71EB6BAA90084D532 /* Project object */;
+}
